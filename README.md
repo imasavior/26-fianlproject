@@ -1,6 +1,6 @@
 # 26組-finalproject
 =======
-成員:108321050，
+成員:108321050,108321024,
 對打遊戲
 
 功能說明:
@@ -8,7 +8,6 @@
 在8x8 LED 矩陣，用來顯示對戰畫面
 
 7段顯示器顯示剩餘生命(從5開始)
-
 <br>當A攻擊B時，攻擊判定成功，5+=1。  
 <br>  <UTL>https://drive.google.com/file/d/1dor4EAwfFl-y4DeW_QArro-Byipyblxo/view?usp=sharing
 <br>  當B攻擊A時，攻擊判定成功，5-=1。  
