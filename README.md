@@ -9,15 +9,15 @@
 
 7段顯示器顯示剩餘生命(從5開始)
 
-當A攻擊B時，攻擊判定成功，5+=1。
+<br>  當A攻擊B時，攻擊判定成功，5+=1。\<br>  
 https://drive.google.com/file/d/1dor4EAwfFl-y4DeW_QArro-Byipyblxo/view?usp=sharing
-當B攻擊A時，攻擊判定成功，5-=1。
+<br>  當B攻擊A時，攻擊判定成功，5-=1。\<br>  
 https://drive.google.com/file/d/1dwKoKVa-xqe-nE1QyZU651ydRlLKKqY9/view?usp=sharing
-當A攻擊B時，B使用格擋，攻擊判定失敗時，不扣分 && 當B攻擊A時，A使用格擋，攻擊判定失敗時，不扣分。
+<br>  當A攻擊B時，B使用格擋，攻擊判定失敗時，不扣分 && 當B攻擊A時，A使用格擋，攻擊判定失敗時，不扣分。\<br>  
 https://drive.google.com/file/d/1e4AmsT4MGOOJW4NOT2VopEQ8Jb_tiup5/view?usp=sharing
-當顯示器顯示到9，跑出藍色勝利 W。
+<br>  當顯示器顯示到9，跑出藍色勝利 W。\<br>  
 https://drive.google.com/file/d/1dpY8hVaGHn8fgoOIlHsSc5BTXr7xVygD/view?usp=sharing
-當顯示器顯示到1，跑出紅色勝利 W。
+<br>  當顯示器顯示到1，跑出紅色勝利 W。\<br>  
 https://drive.google.com/file/d/1e8j854I9maqBrAGOL-FHNOVZM4Rtkqpl/view?usp=sharing
 程式模組說明:
 output reg [7:0] R_color,//顯示紅色燈
