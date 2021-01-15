@@ -19,15 +19,19 @@
 <br>  當顯示器顯示到1，跑出紅色勝利 W。
 <br>  <UTL>https://drive.google.com/file/d/1e8j854I9maqBrAGOL-FHNOVZM4Rtkqpl/view?usp=sharing
 <br>  程式模組說明:
-<br>  output reg [7:0] R_color,//顯示紅色燈
-<br>  output reg [7:0] G_color, //顯示綠色燈
-<br>  output reg [7:0] B_color, //顯示藍色燈
-<br>  output reg [3:0] column, //顯示燈亮的排
-<br>  output reg a,b,c,d,e,f,g, //A玩家生命//B玩家生命
-<br>  input a_up,a_down,a_left,a_right, //A玩家的移動(上下左右)
-<br>  input b_up,b_down,b_left,b_right, //B玩家的移動(上下左右)
-<br>  input MSB_in, CLK, Clear,//clear 初始值所有變數
-<br>  input a_attack,a_defense, //A玩家的攻擊(a_attack)和防禦(a_defense)
-<br>  input b_attack,b_defense//B玩家的攻擊(b_attack)和防禦(b_defense)
+  ```
+module finalproject(
+output reg [7:0] R_color,//顯示紅色燈
+output reg [7:0] G_color, //顯示綠色燈
+output reg [7:0] B_color, //顯示藍色燈
+output reg [3:0] column, //顯示燈亮的排
+output reg a,b,c,d,e,f,g, //A玩家生命//B玩家生命
+input a_up,a_down,a_left,a_right, //A玩家的移動(上下左右)
+input b_up,b_down,b_left,b_right, //B玩家的移動(上下左右)
+input MSB_in, CLK, Clear,//clear 初始值所有變數
+input a_attack,a_defense, //A玩家的攻擊(a_attack)和防禦(a_defense)
+input b_attack,b_defense//B玩家的攻擊(b_attack)和防禦(b_defense)
+);
+  ```
 
 *測試影片<UTL>https://drive.google.com/file/d/1d_-vRizJyCnW86-5cysBQkpCY3e9y5vr/view?usp=drivesdk
