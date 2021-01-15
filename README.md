@@ -10,25 +10,25 @@
 7段顯示器顯示剩餘生命(從5開始)
 
 <br>當A攻擊B時，攻擊判定成功，5+=1。  
-https://drive.google.com/file/d/1dor4EAwfFl-y4DeW_QArro-Byipyblxo/view?usp=sharing
+<br>  <UTL>https://drive.google.com/file/d/1dor4EAwfFl-y4DeW_QArro-Byipyblxo/view?usp=sharing
 <br>  當B攻擊A時，攻擊判定成功，5-=1。  
-https://drive.google.com/file/d/1dwKoKVa-xqe-nE1QyZU651ydRlLKKqY9/view?usp=sharing
+<br>  <UTL>https://drive.google.com/file/d/1dwKoKVa-xqe-nE1QyZU651ydRlLKKqY9/view?usp=sharing
 <br>  當A攻擊B時，B使用格擋，攻擊判定失敗時，不扣分 && 當B攻擊A時，A使用格擋，攻擊判定失敗時，不扣分。
-https://drive.google.com/file/d/1e4AmsT4MGOOJW4NOT2VopEQ8Jb_tiup5/view?usp=sharing
+<br>  <UTL>https://drive.google.com/file/d/1e4AmsT4MGOOJW4NOT2VopEQ8Jb_tiup5/view?usp=sharing
 <br>  當顯示器顯示到9，跑出藍色勝利 W。 
-https://drive.google.com/file/d/1dpY8hVaGHn8fgoOIlHsSc5BTXr7xVygD/view?usp=sharing
+<br> <UTL> https://drive.google.com/file/d/1dpY8hVaGHn8fgoOIlHsSc5BTXr7xVygD/view?usp=sharing
 <br>  當顯示器顯示到1，跑出紅色勝利 W。
-<br>  https://drive.google.com/file/d/1e8j854I9maqBrAGOL-FHNOVZM4Rtkqpl/view?usp=sharing
-程式模組說明:
-output reg [7:0] R_color,//顯示紅色燈
-output reg [7:0] G_color, //顯示綠色燈
-output reg [7:0] B_color, //顯示藍色燈
-output reg [3:0] column, //顯示燈亮的排
-output reg a,b,c,d,e,f,g, //A玩家生命//B玩家生命
-input a_up,a_down,a_left,a_right, //A玩家的移動(上下左右)
-input b_up,b_down,b_left,b_right, //B玩家的移動(上下左右)
-input MSB_in, CLK, Clear,//clear 初始值所有變數
-input a_attack,a_defense, //A玩家的攻擊(a_attack)和防禦(a_defense)
-input b_attack,b_defense//B玩家的攻擊(b_attack)和防禦(b_defense)
+<br>  <UTL>https://drive.google.com/file/d/1e8j854I9maqBrAGOL-FHNOVZM4Rtkqpl/view?usp=sharing
+<br>  程式模組說明:
+<br>  output reg [7:0] R_color,//顯示紅色燈
+<br>  output reg [7:0] G_color, //顯示綠色燈
+<br>  output reg [7:0] B_color, //顯示藍色燈
+<br>  output reg [3:0] column, //顯示燈亮的排
+<br>  output reg a,b,c,d,e,f,g, //A玩家生命//B玩家生命
+<br>  input a_up,a_down,a_left,a_right, //A玩家的移動(上下左右)
+<br>  input b_up,b_down,b_left,b_right, //B玩家的移動(上下左右)
+<br>  input MSB_in, CLK, Clear,//clear 初始值所有變數
+<br>  input a_attack,a_defense, //A玩家的攻擊(a_attack)和防禦(a_defense)
+<br>  input b_attack,b_defense//B玩家的攻擊(b_attack)和防禦(b_defense)
 
-*測試影片https://drive.google.com/file/d/1d_-vRizJyCnW86-5cysBQkpCY3e9y5vr/view?usp=drivesdk
+*測試影片<UTL>https://drive.google.com/file/d/1d_-vRizJyCnW86-5cysBQkpCY3e9y5vr/view?usp=drivesdk
